@@ -106,8 +106,8 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="rb" class="control-label col-xs-5">Revision de Bases:</label>
-                                        <div id="rb" name="rb" class="input-group date form_date col-md-5" data-date="yyyy MM dd" data-date-format="yyyy MM dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
-                                          <input class="form-control" size="16" type="text" >
+                                        <div  class="input-group date form_date col-md-5" data-date="yyyy MM dd" data-date-format="yyyy MM dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                                          <input id="rb" name="rb" class="form-control" size="16" type="text" >
                                           <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
                                           <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
                                           </div>

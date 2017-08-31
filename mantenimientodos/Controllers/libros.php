@@ -48,7 +48,7 @@
 		$li=$_POST['li'];
 		$seccion=$_POST['seccion'];
 
-		if ($id!=="") {
+		if ($idprocedimiento!=="") {
 			if($inst->actualizar($idprocedimiento, $procedimiento,$caracter,$pini,$pfin,$rb,$fndescarga,$li,$seccion)){
 				echo 'exito';
 			}
